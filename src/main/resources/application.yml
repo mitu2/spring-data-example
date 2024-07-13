@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-data-example
+  datasource:
+    username: root
+    password: password
+    url: jdbc:mysql://localhost/examples?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  elasticsearch:
+    username: elastic
+    password: elastic
+    uris: http://localhost:9200
+server:
+  port: 8018
